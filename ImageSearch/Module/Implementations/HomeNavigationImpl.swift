@@ -18,7 +18,7 @@ class HomeNavigationImpl: HomeNavigation {
     
     func routeToDetail(_ item: PhotoItem) {
         
-        let vc = PhotoVC(nibName: "OrderDetailVC", bundle: nil)
+        let vc = PhotoVC(nibName: "PhotoVC", bundle: nil)
         vc.item = item
         self.viewController?.present(vc, animated: false, completion: nil)
     }
