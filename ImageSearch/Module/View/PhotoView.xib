@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="center" id="iN0-l3-epB" customClass="PhotoView" customModule="DeliveryApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="478" height="404"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1dG-YL-pxp">
+                    <rect key="frame" x="0.0" y="0.0" width="478" height="404"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1dG-YL-pxp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ass-fi-DVn"/>
+                <constraint firstItem="1dG-YL-pxp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Lyt-8f-bTl"/>
+                <constraint firstAttribute="trailing" secondItem="1dG-YL-pxp" secondAttribute="trailing" id="SnT-4k-R0C"/>
+                <constraint firstAttribute="bottom" secondItem="1dG-YL-pxp" secondAttribute="bottom" id="cnr-nw-drF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="displayImageView" destination="1dG-YL-pxp" id="bpy-XU-Zwb"/>
+            </connections>
+            <point key="canvasLocation" x="243.47826086956525" y="-26.116071428571427"/>
+        </view>
+    </objects>
+</document>
